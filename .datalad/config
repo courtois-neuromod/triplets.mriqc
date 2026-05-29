@@ -2,4 +2,4 @@
 	id = b377e381-2a6e-4e46-9e17-4be95273cf00
 [datalad "containers.bids-mriqc"]
 	image = containers/images/bids/bids-mriqc--24.0.2.sif
-	cmdexec = {img_dspath}/containers/scripts/singularity_cmd run {img} --no-datalad-get {cmd}
+	cmdexec = {img_dspath}/containers/scripts/singularity_cmd run -B /data:/data {img} --no-datalad-get {cmd}
