@@ -1,0 +1,1 @@
+210e65ec-326f-40d3-82f5-7ce7294b9984 autoenable=true bucket=cneuromod.triplets.mriqc chunk=1GiB datacenter=US encryption=none host=s3.unf-montreal.ca name=unfs3.cneuromod.triplets.mriqc port=443 protocol=https requeststyle=path storageclass=STANDARD type=S3 timestamp=1781544114s
